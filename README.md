@@ -1,26 +1,46 @@
-# LearnLyt – Adaptive Learning and Knowledge Retention System
+# LearnLyt – Smart Knowledge Retention System
 
-LearnLyt is a Python-based learning and knowledge retention system designed to help students learn topics, evaluate their understanding, and revise concepts effectively.
+## 📌 Project Overview
 
-The system uses quiz performance and an adaptive revision approach to help students identify topics that need more attention and improve long-term knowledge retention.
+LearnLyt is a Python-based Smart Knowledge Retention System designed to help students improve their learning efficiency and remember concepts for a longer period.
 
-## 🚀 Features
+The system evaluates students' quiz performance, identifies weak learning topics, and schedules revisions using an adaptive revision algorithm.
 
-- **Quiz Management:** Practice questions and evaluate learning progress.
-- **Adaptive Revision:** Schedule topic revisions based on learning performance.
-- **Retention Analysis:** Understand knowledge retention through performance analysis.
-- **Topic Management:** Organize learning topics.
-- **Quiz Results:** Store and track quiz performance.
-- **Database Management:** Store application data using SQLite.
+Unlike traditional learning systems, LearnLyt focuses not only on learning new concepts but also on retaining previously learned knowledge.
+
+## 🎯 Objectives
+
+- Improve long-term knowledge retention.
+- Identify weak and strong learning topics.
+- Analyze student quiz performance.
+- Provide adaptive revision schedules.
+- Encourage consistent and effective learning.
+
+## 🚀 Key Features
+
+### 1. Learning Dashboard
+Provides an overview of learning activities and student progress.
+
+### 2. Quiz Management
+Allows students to answer topic-based questions and evaluate their understanding.
+
+### 3. Adaptive Revision System
+Schedules topic revisions based on quiz performance and revision status.
+
+### 4. Retention Analysis
+Analyzes quiz results to understand how effectively students retain learned concepts.
+
+### 5. Performance Tracking
+Stores quiz results and tracks learning progress over time.
 
 ## 🛠️ Technologies Used
 
-- Python
-- SQLite
-- Streamlit (if used in the application)
-- Git and GitHub
+- Python – Application development
+- SQLite – Database management
+- Git – Version control
+- GitHub – Source code hosting
 
-## 📁 Project Structure
+## 📂 Project Structure
 
 ```text
 LearnLyt/
@@ -30,53 +50,50 @@ LearnLyt/
 ├── retention.py
 ├── requirements.txt
 ├── README.md
-├── .gitignore
-└── __pycache__/
+└── .gitignore
 ```
 
-## ⚙️ Installation and Setup
+## ⚙️ Installation and Execution
 
-1. Clone the repository:
+### Step 1: Clone the repository
 
 ```bash
 git clone https://github.com/shivakallem/LearnLyt.git
 ```
 
-2. Navigate to the project folder:
+### Step 2: Navigate to the project directory
 
 ```bash
 cd LearnLyt
 ```
 
-3. Install the required packages:
+### Step 3: Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Run the application:
+### Step 4: Run the application
 
 ```bash
 streamlit run App.py
 ```
 
-## 🎯 Project Objective
-
-The main objective of LearnLyt is to improve students' learning efficiency by combining quizzes, performance tracking, and adaptive revision techniques.
-
 ## 🔮 Future Enhancements
 
 - AI-based personalized learning recommendations.
-- Advanced knowledge retention analysis.
-- More interactive quizzes.
-- Detailed student performance reports.
+- Advanced retention prediction.
+- Detailed performance reports.
+- Improved adaptive revision strategies.
 
 ## 👨‍💻 Developer
 
 **ShivaPrasad Kallem**
 
-GitHub: https://github.com/shivakallem
+GitHub: [shivakallem](https://github.com/shivakallem)
+
+Project Repository: [LearnLyt](https://github.com/shivakallem/LearnLyt)
 
 ---
 
-⭐ If you find this project useful, consider giving it a star!
+**LearnLyt – Learn Better, Remember Longer!**
