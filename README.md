@@ -1,4 +1,4 @@
-# LearnLyt – Smart Knowledge Retention System
+# LearnLyt – Knowledge Retention System
 
 ## 📌 Project Overview
 
